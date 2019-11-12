@@ -1,11 +1,16 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 15
-VisualStudioVersion = 15.0.27130.2036
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29418.71
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{F7706BD6-0919-4FEB-8726-33A9FA1F1364}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Abp.Castle.NLog", "src\Abp.Castle.NLog\Abp.Castle.NLog.csproj", "{4D936CF1-AC3B-472C-A24A-4D717114B26B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Magicodes.Abp.Castle.NLog", "src\Abp.Castle.NLog\Magicodes.Abp.Castle.NLog.csproj", "{4D936CF1-AC3B-472C-A24A-4D717114B26B}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{DA9C0010-953B-4D25-9E02-AD15DAB7C04F}"
+	ProjectSection(SolutionItems) = preProject
+		README.md = README.md
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
