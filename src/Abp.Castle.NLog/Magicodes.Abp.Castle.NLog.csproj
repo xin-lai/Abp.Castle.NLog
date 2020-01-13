@@ -1,9 +1,8 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
-    <TargetFramework>netstandard2.0</TargetFramework>
-    <Description>Abp的NLog日志输出模块。</Description>
-    <Copyright>Copyright © risesoho.com</Copyright>
+    <TargetFramework>netstandard2.1</TargetFramework>
+    <Description>Abp的NLog日志输出模块。已支持.NET Core 3.1,Abp 5.1.0。</Description>
     <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
     <PackageTags>Abp,NLog,Log</PackageTags>
     <RootNamespace>Abp</RootNamespace>
@@ -11,7 +10,7 @@
     <RepositoryUrl>https://github.com/xin-lai/Abp.Castle.NLog</RepositoryUrl>
     <RepositoryType>git</RepositoryType>
     <PackageReleaseNotes>Abp的NLog日志输出模块。</PackageReleaseNotes>
-    <Version>1.0.0</Version>
+    <Version>1.0.1</Version>
     <PackageProjectUrl>https://github.com/xin-lai/Abp.Castle.NLog</PackageProjectUrl>
     <Authors>雪雁</Authors>
     <Company>湖南心莱信息科技有限公司</Company>
@@ -19,9 +18,9 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <PackageReference Include="Abp" Version="3.9.0" />
-    <PackageReference Include="Castle.Core" Version="4.3.1" />
-    <PackageReference Include="Castle.LoggingFacility" Version="4.1.0" />
+    <PackageReference Include="Abp" Version="5.1.0" />
+    <PackageReference Include="Castle.Core" Version="4.4.0" />
+    <PackageReference Include="Castle.LoggingFacility" Version="5.0.1" />
     <PackageReference Include="NLog" Version="4.5.10" />
   </ItemGroup>
 

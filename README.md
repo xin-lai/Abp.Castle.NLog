@@ -1,6 +1,7 @@
 # Magicodes.Abp.Castle.NLog
 
 Abp的NLog日志输出模块。
+已支持.NET Core 3.1,Abp 5.1.0
 
 forked from woaisoft/Abp.Castle.NLog
 
